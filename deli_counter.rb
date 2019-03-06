@@ -11,11 +11,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
-  if katz_deli.length == 0 
     katz_deli << name 
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
-  else 
-    katz_deli << name 
-    puts 
-  end 
+  
 end 
