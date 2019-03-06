@@ -2,9 +2,10 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
     elsif katz_deli.length > 0 
-      the_line = 
+      the_line = "The line is currently: "
       katz_deli.each_with_index do |person, index|
-       new_array << "#{index+1}. #{person} "
+       the_line << "#{index+1}. #{person} "
       end 
+      the_line
   end 
 end 
