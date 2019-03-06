@@ -2,10 +2,10 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
     elsif katz_deli.length > 0 
-      the_line = "The line is currently: "
+      new_array = []
       katz_deli.each_with_index do |person, index|
-       the_line << "#{index+1}. #{person}"
+       new_array << " #{index+1}. #{person}"
       end 
-      puts the_line
+      puts "The line is currently: #{new_array.join}"
   end 
 end 
