@@ -6,6 +6,6 @@ def line(katz_deli)
       katz_deli.each_with_index do |person, index|
        the_line << "#{index+1}. #{person} "
       end 
-      the_line
+      puts the_line
   end 
 end 
